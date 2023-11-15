@@ -1,11 +1,15 @@
 import React from "react";
 import aboutvector1 from "../assets/about-vetor1.svg";
 
-const Approach = () => {
+const Approaches = () => {
   return (
     <div className="flex flex-col my-10 max-w-[1440px]  items-center justify-center mt-40 font-Sg">
       <div className="flex relative justify-between items-center my-20 md:my-40 gap-5 md:w-[500px]  lg:w-[700px]">
-        <img src={aboutvector1} alt="" className="absolute -z-10 md:-left-24 -left-4 w-[90px] h-[100px] md:w-[229px] md:h-[249px]" />
+        <img
+          src={aboutvector1}
+          alt=""
+          className="absolute -z-10 md:-left-24 -left-4 w-[90px] h-[100px] md:w-[229px] md:h-[249px]"
+        />
         <h1 className=" text-[24px] md:text-[40px] lg:text-[64px] not-italic font-bold leading-[normal] text-white">
           Our <span className="text-[#D61426] ">Uniqueness</span>
         </h1>
@@ -178,4 +182,4 @@ const Approach = () => {
   );
 };
 
-export default Approach;
+export default Approaches;

@@ -11,7 +11,7 @@ import rec3 from "../assets/rec3.png";
 import rec4 from "../assets/rec4.png";
 import rec5 from "../assets/rec5.png";
 import rec6 from "../assets/rec6.png";
-import Approach from "../components/approach";
+import Approaches from "../components/Approaches";
 const AboutUs = () => {
   return (
     <div className="flex flex-col my-10 max-w-[1440px]  font-Sg">
@@ -27,11 +27,15 @@ const AboutUs = () => {
             purus fringilla tellus. Lorem ipsum dolor sit amet consectetur.
           </p>
         </div>
-        <img src={heroabt} alt=""  className=" hidden lg:flex"/>
+        <img src={heroabt} alt="" className=" hidden lg:flex" />
       </div>
       <div className="flex flex-col gap-20 px-[15px] md:px-0 justify-between items-center w-full">
         <div className="flex relative justify-between items-center  my-20 md:my-40 gap-5 w-[300px] md:w-[600px] lg:w-[900px]">
-          <img src={aboutvector1} alt="" className="absolute -z-10 md:-left-24 -left-4 w-[90px] h-[100px] md:w-[229px] md:h-[249px]" />
+          <img
+            src={aboutvector1}
+            alt=""
+            className="absolute -z-10 md:-left-24 -left-4 w-[90px] h-[100px] md:w-[229px] md:h-[249px]"
+          />
           <h1 className="text-[20px] md:text-[40px] lg:text-[64px] not-italic font-bold leading-[normal] text-white">
             Our Service <span className="text-[#D61426] ">Approach</span>
           </h1>
@@ -97,7 +101,7 @@ const AboutUs = () => {
               </section>
               <div className=" w-[250px] md:w-[533px] text-white text-sm md:text-2xl not-italic font-normal leading-[normal] mt-8 ">
                 <ul className="gap-4 flex flex-col">
-                <li className="animated-service">
+                  <li className="animated-service">
                     We stay at the forefront of AI/ML advancements to offer you
                     the latest and most innovative solutions.
                   </li>
@@ -112,7 +116,11 @@ const AboutUs = () => {
 
           <div className="relative hidden lg:flex">
             <img src={rec1} className=" mt-20 ml-40 " alt="" />
-            <img src={rec2} className="absolute top-64 animated-img-2 " alt="" />
+            <img
+              src={rec2}
+              className="absolute top-64 animated-img-2 "
+              alt=""
+            />
           </div>
         </div>
 
@@ -136,7 +144,7 @@ const AboutUs = () => {
                   Agile <p className="text-white ">Development</p>
                 </h1>
               </section>
-              <div  className=" w-[250px] md:w-[533px] text-white text-sm md:text-2xl not-italic font-normal leading-[normal] mt-8 ">
+              <div className=" w-[250px] md:w-[533px] text-white text-sm md:text-2xl not-italic font-normal leading-[normal] mt-8 ">
                 <ul className="gap-4 flex flex-col">
                   <li className="animated-service">
                     We adopt an agile approach to quickly adapt to changing
@@ -212,7 +220,7 @@ const AboutUs = () => {
                   Proven <p className="text-white ">Methodology</p>
                 </h1>
               </section>
-              <div  className=" w-[250px] md:w-[533px] text-white text-sm md:text-2xl not-italic font-normal leading-[normal] mt-8 ">
+              <div className=" w-[250px] md:w-[533px] text-white text-sm md:text-2xl not-italic font-normal leading-[normal] mt-8 ">
                 <ul className="gap-4 flex flex-col">
                   <li className="animated-service">
                     Our well-defined AI/ML methodology has a track record of
@@ -229,12 +237,16 @@ const AboutUs = () => {
 
           <div className="relative hidden lg:flex">
             <img src={rec5} className="  ml-40 " alt="" />
-            <img src={rec6} className="absolute top-48 animated-img-2 " alt="" />
+            <img
+              src={rec6}
+              className="absolute top-48 animated-img-2 "
+              alt=""
+            />
           </div>
         </div>
       </div>
 
-      <Approach/>
+      <Approaches />
     </div>
   );
 };
